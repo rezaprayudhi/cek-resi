@@ -12,33 +12,36 @@ body,html{
     border-radius: 40px !important;
 }
 .btn-primary{
-    background-color: #a55fdf !important;
+    background-color: #0AB265 !important;
     border: none !important;
     transition: 0.3s !important;
 
     &:hover{
         box-shadow: none !important;
-        background-color: #813fb8 !important;
+        background-color: #088b50 !important;
     }
     &:focus{
         box-shadow: none !important;
-        outline: 4px solid #a55fdf8f !important;
+        outline: 4px solid #0AB2658f !important;
     }
 }
 .form-control,.form-select{
-    border: #a55fdf 1px solid !important;
+    border: #0AB265 1px solid !important;
     transition: 0.3s !important;
     &:focus{
-        border: #a55fdf 1px solid !important;
+        border: #0AB265 1px solid !important;
         box-shadow: none !important;
-        outline: 4px solid #a55fdf8f !important;
+        outline: 4px solid #0AB2658f !important;
     }
 }
 .card{
-    border: #a55fdf 1px solid !important;
+    border: #0AB265 1px solid !important;
 }
 .nav-main{
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 0 0 25px 25px;
     height: 70px;
-    background-color: #a55fdf;
+    background-color: #0AB265;
     color: #ffffff;
 }
